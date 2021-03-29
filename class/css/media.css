@@ -1,0 +1,208 @@
+@media screen and (max-width:1200px){
+    .main .main-title{
+        margin-left:200px;
+    }
+    .search .search-btn{
+        border-color:orange;
+        color:#ddd;
+    }
+    .page1 .right{
+        margin-right:0;
+    }
+    .hots-field .field-list{
+        width: 1080px;
+        margin:40px auto 0;
+        box-sizing: border-box;
+    }
+    .works-wrap .work-field-list{
+        margin-left:200px;
+    }
+    .works-wrap .swiper-list{
+        height: 770px;
+        overflow: hidden;
+    }
+    .works-wrap .swiper-slide{
+        width: 320px;
+    }
+    .artist-wrap{
+        min-width: 1200px;
+    }
+    .artist-wrap .right-img-box{
+        width: 102px;
+        height: 302px;
+    }
+    .artist-wrap .left-img-box .img-chunk-box{
+        height: 195px;
+        width: 67px;
+    }
+    .artist-wrap .left-img-box .img-dot-box{
+        right: 25px;
+        bottom: 50px;
+        width: 102px;
+        height: 102px;
+    }
+    .artist-wrap .center-box{
+        width: 480px;
+        height: 480px;
+    }
+    .artist-wrap .filed-chunk{
+        width: 162px;
+        height: 162px;
+    }
+    .artist-wrap .filed-chunk .img-icon-box{
+        width: 54px;
+        height: 50px;
+    }
+    .artist-wrap .filed-chunk .title{
+        font-size: 18px;
+        height: 30px;
+        height: 30px;
+    }
+    .artist-wrap .filed-chunk .eg-title{
+        font-size: 14px;
+        height: 24px;
+        line-height: 24px;
+    }
+    .artist-wrap .filed-chunk .info{
+        font-size: 12px;
+        height: 18px;
+        line-height: 18px;
+    }
+    .artist-wrap .filed-chunk.left-top-box{
+        left: 180px;
+    }
+    .artist-wrap .filed-chunk.right-top-box{
+        right: 180px!important;
+    }
+    .artist-wrap .filed-chunk.left-bottom-box{
+        left: 180px!important;
+    }
+    .artist-wrap .filed-chunk.right-bottom-box{
+        right: 180px!important;
+    }
+    .artist-wrap .artist .artist-img{
+        margin:10px auto;
+    }
+    .artist-wrap .artist:nth-of-type(3){
+        width: 137px;
+        height: 200px;
+    }
+    .artist-wrap .artist:nth-of-type(3) .artist-img{
+        width: 110px;
+        height: 110px;
+    }
+    .artist-wrap .artist:nth-of-type(3) .name{
+        font-size: 18px;
+    }
+    .artist-wrap .artist:nth-of-type(3) .time{
+        font-size: 18px;
+    }
+    .artist-wrap .artist:nth-of-type(4){
+        width: 130px;
+        height: 170px;
+        left: 20px;
+    }
+    .artist-wrap .artist:nth-of-type(4) .artist-img{
+        width: 97px;
+        height: 97px;
+    }
+    .artist-wrap .artist:nth-of-type(4) .name{
+        font-size: 16px;
+    }
+    .artist-wrap .artist:nth-of-type(4) .time{
+        font-size: 16px;
+    }
+    .artist-wrap .artist:nth-of-type(2){
+        width: 114px;
+        height: 166px;
+        right: 20px;
+        bottom: 150px;
+    }
+    .artist-wrap .artist:nth-of-type(2) .artist-img{
+        width: 78px;
+        height: 78px;
+    }
+    .artist-wrap .artist:nth-of-type(2) .name{
+        font-size: 14px;
+    }
+    .artist-wrap .artist:nth-of-type(2) .time{
+        font-size: 14px;
+    }
+    .works-wrap .field-nav  .field-more{
+        margin-right:60px;
+    }
+    .classromm-wrap .search-all{
+        margin-right:130px;
+    }
+    .course .field-nav{
+        padding:0 100px;
+    }
+    .original-communication-wrap .inner-bg-img-box{
+        width: 1200px;
+        height: 830px;
+    }
+    .original-communication-wrap .inner-bg-img-box .bg-img-box{
+        height: 790px;
+    }
+    .original-communication-wrap .original-swper-container{
+        width: 384px;
+        height: 520px;
+        bottom: 230px;
+        right: 100px;
+    }
+    .original-communication-wrap .original-swper-container .swiper-slide .adorn-img-box{
+        width: 120px;
+        height: 172px;
+        margin:10px auto 5px;
+    }
+    .original-communication-wrap .original-swper-container .angle{
+        width: 60px;
+        height: 60px;
+    }
+    .art-knowledge-wrap .slide-list{
+        padding: 0 50px;
+    }
+    .vr-painting .vr-content{
+        max-width: 1200px;
+        margin:90px 10px;
+    }
+    .vr-painting .vr-content .vr-card{
+        width: 295px;
+        height: 464px;
+    }
+    .vr-painting .vr-content .vr-card2{
+        left: 295px;
+    }
+    .vr-painting .vr-content .vr-card3{
+        left: 590px;
+    }
+    .vr-painting .vr-content .vr-card4{
+        left: 885px;
+    }
+    .art-infomation .search-more{
+        margin-right: 80px;
+    }
+    .original-swper-container .school-logo{
+        width: 120px;
+        height: 120px;
+    }
+    .original-swper-container .info{
+        font-size: 12px;
+    }
+    .original-swper-container .swiper-slide .desc-img{
+        width: 300px;
+        height: 200px;
+    }
+    .original-swper-container .swiper-slide .btn{
+        width: 80px;
+        height: 35px;
+        border-radius: 25px;
+        line-height: 35px;
+    }
+    .original-swper-container .swiper-slide .desc-btn{
+        left: 80px;
+    }
+    .original-swper-container .swiper-slide .upload{
+        right: 80px;
+    }
+}

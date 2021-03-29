@@ -1,0 +1,195 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+legend,
+button form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    padding: 0;
+    margin: 0;
+}
+
+/* 閰屾儏淇敼 */
+body {
+    background: #fff;
+    color: #333;
+    font-size: 12px;
+    margin-top: 5px;
+    font-family: "Microsoft YaHei", "Arial Narrow";
+}
+
+/* 鐭紩鐢ㄧ殑鍐呭鍙彇鍊硷細''鎴�"" */
+q:before,
+q:after {
+    content: 鈥�;
+}
+
+/* 缂╁啓锛屽浘鐗囩瓑鏃犺竟妗� */
+fieldset,
+img,
+abbr,
+acronym {
+    border: 0 none;
+}
+
+abbr,
+acronym {
+    font-variant: normal;
+}
+
+legend {
+    color: #000;
+}
+
+/* 娓呴櫎鐗规畩鏍囪鐨勫瓧浣撳拰瀛楀彿 */
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 涓婁笅鏍� */
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+/* 璁剧疆琛ㄦ牸鐨勮竟妗嗚鍚堝苟涓轰竴涓崟涓€鐨勮竟妗�, 鎸囧畾鍒嗛殧杈规妯″瀷涓崟鍏冩牸杈圭晫涔嬮棿鐨勮窛绂讳负0*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 琛ㄦ牸鏍囬鍙婂唴瀹瑰眳宸︽樉绀� */
+caption,
+th {
+    text-align: left;
+}
+
+input,
+img,
+select {
+    vertical-align: middle;
+}
+
+/* 娓呴櫎鍒楄〃鏍峰紡 */
+ol,
+ul {
+    list-style: none;
+}
+
+/* 杈撳叆鎺т欢瀛椾綋 */
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+/* 鏍囬鍏冪礌鏍峰紡娓呴櫎 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+/* 閾炬帴鏍峰紡锛岄鑹插彲閰屾儏淇敼 */
+del,
+ins,
+a {
+    text-decoration: none!important;
+}
+
+a:link {
+    color: #009;
+}
+
+a:visited {
+    color: #800080;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #c00;
+    text-decoration: underline;
+}
+a:hover{
+    color:#409EFF;
+}
+/* 榧犳爣鏍峰紡 */
+input[type="submit"] {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+input::-moz-focus {
+    border: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear:both;
+    visibility: hidden;
+    zoom: 1;
+}
+.ellipsis{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+input{
+    outline: none;
+    border:none;
+    background-color: transparent;
+}
